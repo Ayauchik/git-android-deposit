@@ -17,7 +17,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -89,8 +88,7 @@ fun FirstColumn(
             style = colText,
             fontWeight = FontWeight.W800,
             fontFamily = getKav(),
-            fontSize = 28.sp,
-            fontStyle = FontStyle.Italic
+            fontSize = 24.sp,
         )
     }
 }
@@ -123,7 +121,6 @@ fun SecondColumn(
             color = colorResource(id = R.color.numsCol2),
             fontWeight = FontWeight.W800,
             fontFamily = getKav(),
-            fontStyle = FontStyle.Italic
         )
     }
 }
